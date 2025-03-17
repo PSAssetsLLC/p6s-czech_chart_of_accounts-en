@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<COA>
+
+    <AccountClass code="0" name="Fixed Assets">
+
+        <AccountGroup code="01" name="Intangible Fixed Assets">
+            <SyntheticAccount code="010" name="Intangible Fixed Assets" />
+            <SyntheticAccount code="011" name="Incorporation Expenses" />
+            <SyntheticAccount code="012" name="R&amp;D" />
+            <SyntheticAccount code="013" name="Software" />
+            <SyntheticAccount code="014" name="Valuable Rights" />
+            <SyntheticAccount code="015" name="Low-Valuable Intangible Fixed Assets" />
+            <SyntheticAccount code="019" name="Other Intangible Fixed Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="02" name="Depreciable Tangible Fixed Assets">
+            <SyntheticAccount code="021" name="Building, Halls and Structures" />
+            <SyntheticAccount code="022"
+                name="Machinery, Equipment, Vehicles, Furnitures and Fixtures" />
+            <SyntheticAccount code="025" name="Perennial Crops" />
+            <SyntheticAccount code="026" name="Breeding and Draught Animals" />
+            <SyntheticAccount code="028" name="Low-Value Tangible Fixed Assets" />
+            <SyntheticAccount code="029" name="Other Tangible Fixed Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="03" name="Depreciable Tangible Fixed Assets">
+            <SyntheticAccount code="031" name="Land" />
+            <SyntheticAccount code="032" name="Art" />
+        </AccountGroup>
+
+        <AccountGroup code="04" name="Intangible and Tangible Fixed Assets under Construction">
+            <SyntheticAccount code="040"
+                name="Intangible and Tangible Fixed Assets under Construction" />
+            <SyntheticAccount code="041" name="Intangible Fixed Assets under Construction" />
+            <SyntheticAccount code="042" name="Tangible Fixed Assets under Construction" />
+        </AccountGroup>
+
+        <AccountGroup code="05" name="Advance Payments for Intangible and Tangible Fixed Assets">
+            <SyntheticAccount code="050"
+                name="Advance Payments for Intangible and Tangible Fixed Assets" />
+            <SyntheticAccount code="051" name="Advance Payments for Intangible Fixed Assets" />
+            <SyntheticAccount code="052" name="Advance Payments for Tangible Fixed Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="06" name="Financial Investments">
+            <SyntheticAccount code="061"
+                name="Shares and Ownership Interests in Enterprises with Controlling Influence" />
+            <SyntheticAccount code="062"
+                name="Shares and Ownership Interests in Enterprises with Substantial Influence" />
+            <SyntheticAccount code="063" name="Other Securities and Ownership Interests" />
+            <SyntheticAccount code="066" name="Intercompany Loans" />
+            <SyntheticAccount code="067" name="Other Loans" />
+            <SyntheticAccount code="069" name="Other Financial Investments" />
+        </AccountGroup>
+
+        <AccountGroup code="07" name="Accumulated Amortization of Intangible Fixed Assets">
+            <SyntheticAccount code="070" name="Accumulated Amortization of Intangible Fixed Assets" />
+            <SyntheticAccount code="071" name="Accumulated Amortization of Incorporation Expenses" />
+            <SyntheticAccount code="072" name="Accumulated Amortization of R&amp;D" />
+            <SyntheticAccount code="073" name="Accumulated Amortization of Software" />
+            <SyntheticAccount code="074" name="Accumulated Amortization of Valuable Rights" />
+            <SyntheticAccount code="075"
+                name="Accumulated Amortization of Low-Value Intangible Fixed Assets" />
+            <SyntheticAccount code="079"
+                name="Accumulated Amortization of Other Intangible Fixed Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="08" name="Accumulated Depreciation of Tangible Fixed Assets">
+            <SyntheticAccount code="081"
+                name="Accumulated Depreciation of Buildings, Halls and Structures" />
+            <SyntheticAccount code="082"
+                name="Accumulated Depreciation of Machinery, Equipment, Vehicles, Furniture and Fixtures" />
+            <SyntheticAccount code="085" name="Accumulated Depreciation of Perennial Crops" />
+            <SyntheticAccount code="086"
+                name="Accumulated Depreciation of Breeding and Draught Animals" />
+            <SyntheticAccount code="088"
+                name="Accumulated Depreciation of Low-Value Intangible Fixed Assets" />
+            <SyntheticAccount code="089"
+                name="Accumulated Depreciation of Other Tangible Fixed Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="09" name="Adjustments to Fixed Assets and Investments">
+            <SyntheticAccount code="091" name="Adjustments to Intangible Fixed Assets" />
+            <SyntheticAccount code="092" name="Adjustments to Tangible Fixed Assets" />
+            <SyntheticAccount code="093"
+                name="Adjustments to Intangible Fixed Assets Under Construction" />
+            <SyntheticAccount code="094"
+                name="Adjustments to Tangible Fixed Assets Under Construction" />
+            <SyntheticAccount code="095" name="Adjustments to Advance Payments" />
+            <SyntheticAccount code="096" name="Adjustments to Financial Investments" />
+            <SyntheticAccount code="097" name="Adjustments to Acquired Assets" />
+            <SyntheticAccount code="098"
+                name="Accumulated Amortization of Goodwill from Acquisition of Fixed Assets" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="1" name="Inventory">
+
+        <AccountGroup code="11" name="Materials">
+            <SyntheticAccount code="111" name="Material Procurement" />
+            <SyntheticAccount code="112" name="Material in Stock" />
+            <SyntheticAccount code="119" name="Material in Transit" />
+        </AccountGroup>
+
+        <AccountGroup code="12" name="Manufactured Goods">
+            <SyntheticAccount code="121" name="Work-in-Progress" />
+            <SyntheticAccount code="122" name="Semi-Finished Products" />
+            <SyntheticAccount code="123" name="Finished Products" />
+            <SyntheticAccount code="124" name="Animals" />
+        </AccountGroup>
+
+        <AccountGroup code="13" name="Goods">
+            <SyntheticAccount code="131" name="Goods Procurement" />
+            <SyntheticAccount code="132" name="Goods in Hand" />
+            <SyntheticAccount code="139" name="Goods in Transit" />
+        </AccountGroup>
+
+        <AccountGroup code="19" name="Adjustments to Inventory">
+            <SyntheticAccount code="191" name="Adjustments to Materials" />
+            <SyntheticAccount code="192" name="Adjustments to Work-in-Progress" />
+            <SyntheticAccount code="193" name="Adjustments to Semi-Finished Products" />
+            <SyntheticAccount code="194" name="Adjustments to Finished Products" />
+            <SyntheticAccount code="195" name="Adjustments to Animals" />
+            <SyntheticAccount code="196" name="Adjustments to Goods" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="2" name="Financial Accounts">
+
+        <AccountGroup code="21" name="Cash">
+            <SyntheticAccount code="210" name="Cash" />
+            <SyntheticAccount code="211" name="Petty Cash" />
+            <SyntheticAccount code="213" name="Liquid Valuables" />
+        </AccountGroup>
+
+        <AccountGroup code="22" name="Bank Accounts">
+            <SyntheticAccount code="221" name="Bank Accounts" />
+            <SyntheticAccount code="222" name="Bank Accounts of Clients" />
+        </AccountGroup>
+
+        <AccountGroup code="23" name="Current Bank Loans">
+            <SyntheticAccount code="231" name="Short-Term Bank Loans" />
+            <SyntheticAccount code="232" name="Credits for Discounted Notes" />
+        </AccountGroup>
+
+        <AccountGroup code="24" name="Short-Term Financial Assistance">
+            <SyntheticAccount code="241" name="Issued Short-Term Bonds" />
+            <SyntheticAccount code="249" name="Short-Term Financial Assistance" />
+        </AccountGroup>
+
+        <AccountGroup code="25" name="Short-Term Financial Assets">
+            <SyntheticAccount code="251" name="Shares and Similiar Securities" />
+            <SyntheticAccount code="252" name="Own Shares" />
+            <SyntheticAccount code="253" name="Bonds, Debentures and Similiar Securities" />
+            <SyntheticAccount code="255" name="Own Bonds Issued" />
+            <SyntheticAccount code="256" name="Other Securities" />
+        </AccountGroup>
+
+        <AccountGroup code="26" name="Transfers">
+            <SyntheticAccount code="261" name="Cash in Transit" />
+        </AccountGroup>
+
+        <AccountGroup code="29" name="Adjustments to Short-Term Financial Assets">
+            <SyntheticAccount code="291" name="Adjustments to Shares and Similiar Securities" />
+            <SyntheticAccount code="293"
+                name="Adjustments to Bonds, Debentures and Similiar Securities" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="3" name="Accounts Receivable and Short-Term Payable">
+
+        <AccountGroup code="31" name="Receivables">
+            <SyntheticAccount code="311" name="Receivables for Customers" />
+            <SyntheticAccount code="312" name="Receivables for Bills of Exchange" />
+            <SyntheticAccount code="313" name="Receivables for Discounted Notes" />
+            <SyntheticAccount code="314" name="Advances for Operating Payments" />
+            <SyntheticAccount code="315" name="Other Receivables" />
+        </AccountGroup>
+
+        <AccountGroup code="32" name="Payables">
+            <SyntheticAccount code="321" name="Suppliers" />
+            <SyntheticAccount code="322" name="Payables for Bills of Exchange" />
+            <SyntheticAccount code="324" name="Advances for Payables" />
+            <SyntheticAccount code="325" name="Other Payables" />
+            <SyntheticAccount code="326" name="Payable to Customers" />
+            <SyntheticAccount code="327" name="Payable to Financial Markets" />
+        </AccountGroup>
+
+        <AccountGroup code="33" name="Employees and Institutions">
+            <SyntheticAccount code="331" name="Payroll" />
+            <SyntheticAccount code="333" name="Other Payables to Employees" />
+            <SyntheticAccount code="335" name="Receivables from Employees" />
+            <SyntheticAccount code="336" name="Social Security and Health Insurance" />
+        </AccountGroup>
+
+        <AccountGroup code="34" name="Taxes and Subsidies">
+            <SyntheticAccount code="341" name="Income Tax" />
+            <SyntheticAccount code="342" name="Other Direct Taxes" />
+            <SyntheticAccount code="343" name="VAT" />
+            <SyntheticAccount code="345" name="Other Taxes and Fees" />
+            <SyntheticAccount code="346" name="State Subsidies" />
+            <SyntheticAccount code="347" name="Other Subsidies" />
+        </AccountGroup>
+
+        <AccountGroup code="35" name="Receivables from Partners and Participants in an Association">
+            <SyntheticAccount code="351" name="Intercompany Receivables" />
+            <SyntheticAccount code="353" name="Receivables for Capital Subscription" />
+            <SyntheticAccount code="354" name="Receivables from Partners to Cover Losses" />
+            <SyntheticAccount code="355" name="Other Receivables from Partners" />
+            <SyntheticAccount code="358" name="Receivables from Partners in an Association" />
+        </AccountGroup>
+
+        <AccountGroup code="36" name="Payables to Partners and Participants in an Association">
+            <SyntheticAccount code="361" name="Intercompany Payables" />
+            <SyntheticAccount code="364" name="Profit Share Payables to Partners" />
+            <SyntheticAccount code="365" name="Other Payables to Partners" />
+            <SyntheticAccount code="366"
+                name="Payables to Partners and Cooperative Members for Employment" />
+            <SyntheticAccount code="367"
+                name="Payables for Unpaid Subscribed Shares and Participations" />
+            <SyntheticAccount code="368" name="Payables to Partners in an Association" />
+        </AccountGroup>
+
+        <AccountGroup code="37" name="Other Receivables and Payables">
+            <SyntheticAccount code="371" name="Deferred Taxes and Payables" />
+            <SyntheticAccount code="373" name="Purchased Options" />
+            <SyntheticAccount code="374" name="Sold Options" />
+            <SyntheticAccount code="375" name="Receivables from Issued Notes or Bonds" />
+            <SyntheticAccount code="377" name="Receivables and Payables from Securities Trading" />
+            <SyntheticAccount code="378" name="Other Receivables" />
+            <SyntheticAccount code="379" name="Other Payables" />
+        </AccountGroup>
+
+        <AccountGroup code="38" name="Temporary Accounts">
+            <SyntheticAccount code="381" name="Deferred Expenses" />
+            <SyntheticAccount code="382" name="Deferred Expenses (1Y+)" />
+            <SyntheticAccount code="383" name="Accrued Expenses" />
+            <SyntheticAccount code="384" name="Deferred Revenues" />
+            <SyntheticAccount code="385" name="Accrued Revenues" />
+            <SyntheticAccount code="386" name="Foreign Currency Exchange Losses" />
+            <SyntheticAccount code="387" name="Foreign Currency Exchange Gains" />
+            <SyntheticAccount code="388" name="Estimated Accrued Revenues" />
+            <SyntheticAccount code="389" name="Estimated Accrued Expenses" />
+        </AccountGroup>
+
+        <AccountGroup code="39" name="Utility Accounts">
+            <SyntheticAccount code="391" name="Adjustments to Doubtful Receivables" />
+            <SyntheticAccount code="395" name="Internal Clearing Accounts" />
+            <SyntheticAccount code="398" name="Transfer Accounts for Associations" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="4" name="Capital Accounts and Long-Term Payables">
+
+        <AccountGroup code="41" name="Registered Capital and Capital Funds">
+            <SyntheticAccount code="411" name="Registered Capital" />
+            <SyntheticAccount code="412" name="Share Premium" />
+            <SyntheticAccount code="413" name="Other Capital Funds" />
+            <SyntheticAccount code="414" name="Gains or Losses from Revaluation of Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="42" name="Retained Earnings and Net Profit">
+            <SyntheticAccount code="421" name="Legal Reserve Fund" />
+            <SyntheticAccount code="422" name="Indivisble Fund" />
+            <SyntheticAccount code="423" name="Statutory Fund" />
+            <SyntheticAccount code="427" name="Other Funds" />
+            <SyntheticAccount code="428" name="Retained Earnings from Previous Years" />
+            <SyntheticAccount code="429" name="Accumulated Losses from Previous Years" />
+        </AccountGroup>
+
+        <AccountGroup code="43" name="Profit or Loss">
+            <SyntheticAccount code="431" name="Profit or Loss to be Approved" />
+        </AccountGroup>
+
+        <AccountGroup code="45" name="Reserves">
+            <SyntheticAccount code="451" name="Legal Reserves" />
+            <SyntheticAccount code="454" name="Foreign Exchange Risk Reserve" />
+            <SyntheticAccount code="459" name="Other Reserves" />
+        </AccountGroup>
+
+        <AccountGroup code="46" name="Bank Loans">
+            <SyntheticAccount code="461" name="Bank Loans" />
+        </AccountGroup>
+
+        <AccountGroup code="47" name="Long-Term Payables">
+            <SyntheticAccount code="471" name="Intercompany Long-Term Payables" />
+            <SyntheticAccount code="473" name="Bonds Issued" />
+            <SyntheticAccount code="474" name="Payables under Leasing Contractors" />
+            <SyntheticAccount code="475" name="Long-Term Advances Received" />
+            <SyntheticAccount code="478" name="Long-Term Notes Payable" />
+            <SyntheticAccount code="479" name="Other Long-Term Payables" />
+        </AccountGroup>
+
+        <AccountGroup code="49" name="Sole Proprietor">
+            <SyntheticAccount code="491" name="Sole Proprietor" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="5" name="Expenses">
+
+        <AccountGroup code="50" name="Consumed Purchases">
+            <SyntheticAccount code="501" name="Material" />
+            <SyntheticAccount code="502" name="Utilities Expenses" />
+            <SyntheticAccount code="503" name="Non-Inventory Items" />
+            <SyntheticAccount code="504" name="COGS" />
+        </AccountGroup>
+
+        <AccountGroup code="51" name="Services">
+            <SyntheticAccount code="510" name="Services" />
+            <SyntheticAccount code="511" name="Repairs & Maintenance" />
+            <SyntheticAccount code="512" name="Travel Expenses" />
+            <SyntheticAccount code="513" name="Entertainment & Promotion Expenses" />
+            <SyntheticAccount code="518" name="Other Services" />
+        </AccountGroup>
+
+        <AccountGroup code="52" name="Personnel">
+            <SyntheticAccount code="520" name="Personnel" />
+            <SyntheticAccount code="521" name="Wages and Salaries" />
+            <SyntheticAccount code="523" name="Remuneration of Board Members" />
+            <SyntheticAccount code="524" name="Statutory Social Security Insurance" />
+            <SyntheticAccount code="525" name="Other Social Security Insurance" />
+            <SyntheticAccount code="526" name="Sole Proprietor's Social Security" />
+            <SyntheticAccount code="527" name="Social Security" />
+            <SyntheticAccount code="528" name="Social Security Expenses" />
+        </AccountGroup>
+
+        <AccountGroup code="53" name="Taxes and Fees">
+            <SyntheticAccount code="530" name="Taxes and Fees" />
+            <SyntheticAccount code="531" name="Road Tax" />
+            <SyntheticAccount code="532" name="Real Estate Tax" />
+            <SyntheticAccount code="538" name="Other Taxes and Fees" />
+        </AccountGroup>
+
+        <AccountGroup code="54" name="Operating Expenses">
+            <SyntheticAccount code="540" name="Operating Expenses" />
+            <SyntheticAccount code="541" name="Net Value of Disposed Assets" />
+            <SyntheticAccount code="542" name="Material Sold" />
+            <SyntheticAccount code="543" name="Gifts" />
+            <SyntheticAccount code="544" name="Contractual Fines and Interest on Late Payments" />
+            <SyntheticAccount code="545" name="Other Fines and Penalties" />
+            <SyntheticAccount code="546" name="Write-Off of Receivables" />
+            <SyntheticAccount code="548" name="Other Operating Expenses" />
+        </AccountGroup>
+
+        <AccountGroup code="55" name="Depreciation, Reserves and Adjustments for Operating Expenses">
+            <SyntheticAccount code="551" name="Depreciation of Intangible and Tangible Fixed Assets" />
+            <SyntheticAccount code="552" name="Additions to Tax-Deductible Reserves" />
+            <SyntheticAccount code="554" name="Additions to Other Reserves" />
+            <SyntheticAccount code="555" name="Accounting for Deferred Expenses" />
+            <SyntheticAccount code="556"
+                name="Accounting for Depreciation of Adjustments to Acquired Assets" />
+            <SyntheticAccount code="557" name="Additions to Tax-Deductible Adjustments" />
+            <SyntheticAccount code="559" name="Additions to Other Adjustments" />
+        </AccountGroup>
+
+        <AccountGroup code="56" name="Financial Expenses">
+            <SyntheticAccount code="560" name="Financial Expenses" />
+            <SyntheticAccount code="561" name="Securities and Ownership Interests Sold" />
+            <SyntheticAccount code="562" name="Interest Paid" />
+            <SyntheticAccount code="563" name="Foreign Exchange Losses" />
+            <SyntheticAccount code="568" name="Other Financial Expenses" />
+        </AccountGroup>
+
+        <AccountGroup code="57" name="Reserves and Adjustments to Financial Expenses">
+            <SyntheticAccount code="574" name="Additions to Financial Reserves" />
+            <SyntheticAccount code="579" name="Additions to Adjustments of Financial Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="58" name="Extraordinary Expenses">
+            <SyntheticAccount code="581" name="Expenses from Change in Accounting Method" />
+            <SyntheticAccount code="582" name="Shortages and Damages" />
+            <SyntheticAccount code="584" name="Additions to Extraordinary Reserves" />
+            <SyntheticAccount code="588" name="Other Extraordinary Expenses" />
+            <SyntheticAccount code="589" name="Additions to Adjustments" />
+        </AccountGroup>
+
+        <AccountGroup code="59" name="Income Taxes and Transfer Accounts">
+            <SyntheticAccount code="591" name="Due Income Tax on Ordinary Income" />
+            <SyntheticAccount code="592" name="Deferred Income Tax on Ordinary Income" />
+            <SyntheticAccount code="593" name="Due Income Tax on Extraordinary Income" />
+            <SyntheticAccount code="594" name="Deferred Income Tax on Extraordinary Income" />
+            <SyntheticAccount code="595" name="Additional Income Tax" />
+            <SyntheticAccount code="596" name="Transfer of Profit or Loss to Partners" />
+            <SyntheticAccount code="597" name="Transfer of Operating Expenses" />
+            <SyntheticAccount code="598" name="Transfer of Financial Expenses" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="6" name="Revenues">
+
+        <AccountGroup code="60" name="Revenues from Business">
+            <SyntheticAccount code="600" name="Performances and Goods Sales" />
+            <SyntheticAccount code="601" name="Product Sales" />
+            <SyntheticAccount code="602" name="Service Sales" />
+            <SyntheticAccount code="604" name="Merchandise Sales" />
+        </AccountGroup>
+
+        <AccountGroup code="61" name="Changes in Inventory">
+            <SyntheticAccount code="610" name="Change in Inventory of Own Production" />
+            <SyntheticAccount code="611" name="Change in Inventory of Work-in-Progress" />
+            <SyntheticAccount code="612" name="Change in Inventory of Finished Products" />
+            <SyntheticAccount code="613" name="Change in Animal Inventory" />
+        </AccountGroup>
+
+        <AccountGroup code="62" name="Activation">
+            <SyntheticAccount code="620" name="Capitalization" />
+            <SyntheticAccount code="621" name="Capitalization of Materials and Merchandise" />
+            <SyntheticAccount code="622" name="Capitalization of Internal Services" />
+            <SyntheticAccount code="623" name="Capitalization of Intangible Fixed Assets" />
+            <SyntheticAccount code="624" name="Capitalization of Tangible Fixed Assets" />
+        </AccountGroup>
+
+        <AccountGroup code="64" name="Operating Revenues">
+            <SyntheticAccount code="640" name="Other Operating Revenues" />
+            <SyntheticAccount code="641"
+                name="Revenues from Disposals of Intangible and Tangible Fixed Assets" />
+            <SyntheticAccount code="642" name="Material Sales" />
+            <SyntheticAccount code="644" name="Contractual Fines and Interest on Late Payments" />
+            <SyntheticAccount code="646" name="Recoveries of Write-Offs" />
+            <SyntheticAccount code="648" name="Other Operating Revenues" />
+        </AccountGroup>
+
+        <AccountGroup code="65" name="Reserves and Adjustments to Operating Expenses">
+            <SyntheticAccount code="652" name="Tax-Deductible Reserves" />
+            <SyntheticAccount code="654" name="Other Reserves" />
+            <SyntheticAccount code="655" name="Deferred Expenses" />
+            <SyntheticAccount code="657" name="Depreciation of Adjustments to Acquired Assets" />
+            <SyntheticAccount code="658" name="Tax-Deductible Adjustments" />
+            <SyntheticAccount code="659" name="Other Adjustments" />
+        </AccountGroup>
+
+        <AccountGroup code="66" name="Financial Revenues">
+            <SyntheticAccount code="660" name="Financial Revenues" />
+            <SyntheticAccount code="661" name="Investment Sales Income" />
+            <SyntheticAccount code="662" name="Interest Received" />
+            <SyntheticAccount code="663" name="Foreign Exchange Gains" />
+            <SyntheticAccount code="665" name="Financial Investments Revenues" />
+            <SyntheticAccount code="666" name="Short-Term Financial Investments Revenues" />
+            <SyntheticAccount code="668" name="Other Financial Revenues" />
+        </AccountGroup>
+
+        <AccountGroup code="67" name="Reserves and Adjustments to Financial Revenues">
+            <SyntheticAccount code="674" name="Accounting for Reserves" />
+            <SyntheticAccount code="679" name="Accounting for Adjustments" />
+        </AccountGroup>
+
+        <AccountGroup code="68" name="Extraordinary Revenues">
+            <SyntheticAccount code="680" name="Extraordinary Revenues" />
+            <SyntheticAccount code="681" name="Revenues from Change in Accounting Method" />
+            <SyntheticAccount code="682" name="Accounting for Reserves" />
+            <SyntheticAccount code="683" name="Other Extraordinary Revenues" />
+            <SyntheticAccount code="684" name="Accounting for Adjustments" />
+        </AccountGroup>
+
+        <AccountGroup code="69" name="Transfers">
+            <SyntheticAccount code="697" name="Transfer of Operating Revenues" />
+            <SyntheticAccount code="698" name="Transfer of Financial Revenues" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="7" name="Closing and Off-Balances Sheet Accounts">
+
+        <AccountGroup code="70" name="Balance Sheet">
+            <SyntheticAccount code="701" name="Opening Balance Sheet" />
+            <SyntheticAccount code="702" name="Closing Balance Sheet" />
+        </AccountGroup>
+
+        <AccountGroup code="71" name="Profit and Loss">
+            <SyntheticAccount code="710" name="Profit and Loss" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="8" name="Cost Centers">
+
+        <AccountGroup code="81" name="Governance Costs">
+            <SyntheticAccount code="811" name="Governance Costs" />
+        </AccountGroup>
+
+        <AccountGroup code="82" name="Business Costs">
+            <SyntheticAccount code="821" name="Legal Ops Costs" />
+        </AccountGroup>
+
+        <AccountGroup code="83" name="Gigs Costs">
+            <SyntheticAccount code="831" name="SaaS Costs" />
+        </AccountGroup>
+
+    </AccountClass>
+
+    <AccountClass code="9" name="Revenue Centers">
+
+        <AccountGroup code="91" name="Business Revenues">
+            <SyntheticAccount code="911" name="Legal Ops Revenues" />
+        </AccountGroup>
+
+        <AccountGroup code="92" name="Gigs Revenues">
+            <SyntheticAccount code="921" name="SaaS Revenues" />
+        </AccountGroup>
+
+    </AccountClass>
+
+</COA>
