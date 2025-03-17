@@ -5,7 +5,7 @@ This repository contains our opinionated XML mapping of the Czech Chart of Accou
 We share this XML to:
 
 1. jump-start your own mapping process,
-2. Provide a reference point for your team debates on the mapping process and
+2. provide a reference point for your team debates on the mapping process and
 3. share our approach to the standardization of the Czech Chart of Accounts in English.
 
 ## License
